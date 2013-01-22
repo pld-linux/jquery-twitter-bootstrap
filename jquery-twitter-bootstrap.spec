@@ -2,12 +2,12 @@
 %define		altname	bootstrap
 Summary:	Bootstrap - front-end framework for faster and easier web development
 Name:		jquery-%{plugin}
-Version:	2.2.1
-Release:	0.1
+Version:	2.2.2
+Release:	1
 License:	Apache License v2.0
 Group:		Applications/WWW
 Source0:	http://twitter.github.com/bootstrap/assets/bootstrap.zip?/%{plugin}-%{version}.zip
-# Source0-md5:	b68fd11642cfe39e0c206816bd53f238
+# Source0-md5:	b270fa24011175fe97c2a7573d3cf7bd
 URL:		http://twitter.github.com/bootstrap/
 BuildRequires:	unzip
 Requires:	jquery >= 1.7
